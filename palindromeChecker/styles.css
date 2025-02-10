@@ -1,0 +1,103 @@
+body {
+  background-color: #0a0a23;
+  color: #fff;
+}
+
+.main-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#freeCodeCamp-logo {
+  width: 14rem;
+  height: 4rem;
+}
+
+.checker-container {
+  background-color: #fff;
+  width: 28rem;
+  height: 10rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 0.8rem solid #000;
+  border-image: linear-gradient(to right, #0287f3, #0a0a23) 1;
+  box-shadow: 0 8px 16px -4px rgba(33, 150, 243, 0.5);
+}
+
+label {
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+  color: #0a0a23;
+}
+
+.input-container {
+  width: 22rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #5a01a7;
+}
+
+input:focus {
+  border-bottom: 3px solid #5a01a7;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #5a01a7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.result-div {
+  overflow-y: auto;
+  word-wrap: break-word;
+  color: #0a0a23;
+}
+
+/* .hidden {
+  display: none;
+} */
+
+.hint {
+  background-color: rgb(14, 82, 14);
+  width: 28rem;
+  height: 10rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#hint-text {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  margin: 1rem;
+}
